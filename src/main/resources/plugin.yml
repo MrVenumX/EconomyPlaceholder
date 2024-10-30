@@ -1,0 +1,9 @@
+name: EconomyPlaceholder
+version: 1.0.0
+api: ["1.0.0"]
+main: com.mrvenumx.nukkit.plugins.EconomyPlaceholder
+description: "EconomyAPI Placeholder provider for nukkit"
+author: MrVenumX
+
+depend: ["PlaceholderAPI"]
+softdepend: ["EconomyAPI"]
