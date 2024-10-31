@@ -17,6 +17,7 @@ class EconomyPlaceholder : PluginBase() {
 
                 logger.debug("EconomyAPI is loaded!")
                 papi.build<String>("eco_money") {
+                    autoUpdate(true)
                     visitorLoader {
                         NumberFormat.getInstance().format(eco.myMoney(player))
                     }
